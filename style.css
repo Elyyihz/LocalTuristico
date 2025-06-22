@@ -1,2 +1,128 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #F5F4F0;
+    font-family: "Open Sans", sans-serif;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container {
+    max-width: 1200px;
+    width: 90%;
+    height: 90vh;
+    padding: 20px;
+}
+
+
+img {
+    border-radius: 35px;
+    max-width: 100%;
+    height: auto;
+}
+
+.description {
+    font-size: 16px;
+    text-align: justify;
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 30px;
+}
+
+.headline {
+    font-size: 16px;
+    color: #E1624F;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-bottom: 2px;
+}
+
+
+#creditos {
+    position: bottom;
+    bottom: 10px;
+    left: 50%;
+    font-size: 14px;
+    color: #888;
+    text-align: center;
+    padding: 16px;
+}
+
+h1{
+    font-size: 36px;
+    color: #1B1B1B;
+    font-weight: bold;
+    margin-top: 2px;
+    margin-bottom: 35px;
+}
+
+h2{
+    font-size: 36px;
+    color: #1B1B1B;
+    font-weight: bold;
+    margin-top: 2px;
+    margin-bottom: 3px;
+}
+
+h2{
+    font-size: 28px;
+    color: #1B1B1B;
+    font-weight: bold;
+    margin-top: 2px;
+    margin-bottom: 3px;
+}
+
+p{
+    font-size: 16px;
+    color: #1B1B1B;
+    font-weight: regular;
+    margin: 2px;
+}
+
+.categories{
+    margin-bottom: 1px;
+}
+
+#familias {
+    font-weight: bold;
+    color: #E5245E;
+}
+
+#casais {
+    font-weight: bold;
+    color: #591B98;
+}
+
+#orcamento {
+    font-weight: bold;
+    color: #E95E10;
+}
+
+.historia {
+    font-weight: bold;
+    color: #0C51A7;
+}
+
+.bom-para{
+    margin-top: 2px;
+    margin-bottom: 40px;
+}
+
+#descriptiontittle{
+    font-size: 16px;
+    color: #1B1B1B;
+    font-weight: regular;
+    margin-top: 2px;
+    margin-bottom: 30px;
+}
+
